@@ -8,7 +8,12 @@ function App() {
     if (count >= 20) {
       alert("counter value is greater than 20");
     } else {
-      setCount(count + 1);
+      // setCount(count + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
+      setCount((prevCounter) => prevCounter + 1);
     }
   };
   const removeValue = () => {
