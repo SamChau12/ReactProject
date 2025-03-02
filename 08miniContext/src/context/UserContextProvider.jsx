@@ -8,7 +8,7 @@ const UserContextProvider = ({ children }) => {
   //object is passed in value
   return (
     <UserContext.Provider value={{ user, setUser }}>
-      {children}
+      {children} /*App.jsx is render here */
     </UserContext.Provider>
   );
 };
